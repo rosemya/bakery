@@ -5,8 +5,8 @@ const AboutPage = () => (
     <div id={"about-section"} className={"xl:w-screen xl:h-screen py-25 xl:py-0 bg-[#1F2B2B] flex items-center flex-col-reverse xl:flex-row"}>
         {/* Images */}
         <div className={"flex flex-col lg:flex-row h-full items-center gap-10 pl-10"}>
-            <Image src={"/bread.jpg"} alt={"Bread"} width={375} height={500} />
-            <Image src={"/chef.jpg"} alt={"Chef"} width={350} height={500} />
+            <Image src={"/bread.jpg"} alt={"Bread"} width={375} height={500} priority />
+            <Image src={"/chef.jpg"} alt={"Chef"} width={350} height={500} priority />
         </div>
 
         {/* About */}

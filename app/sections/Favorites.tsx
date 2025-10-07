@@ -5,7 +5,7 @@ const FavoritesPage = () => {
     const FavoriteImage = ({image, text}: {image: string; text: string}) => (
         <div>
             <div className={"relative w-[300px] h-[400px]"}>
-                <Image src={image} alt={text} fill={true} />
+                <Image src={image} alt={text} fill={true} priority />
             </div>
             <p>{text}</p>
         </div>

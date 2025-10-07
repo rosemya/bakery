@@ -27,7 +27,7 @@ const HomePage = () => (
         {/* Content */}
         <div className={"flex flex-col h-screen items-center justify-center"}>
             {/* Logo */}
-            <Image src={"/logo.png"} alt={"Bistro Bakery Logo"} width={500} height={200} />
+            <Image src={"/logo.png"} alt={"Bistro Bakery Logo"} width={500} height={200} priority />
 
             {/* Description */}
             <p className={"lg:w-[700px] px-10 lg:px-0 text-lg text-center pt-10 leading-9"}>Pulling on influences from around the globe with the chef&#39;s talent, pedigrees and passions. Bistro Bakery features hearty breakfasts, fulfilling lunches, and freshly made morning pastries including Danish products and a variety of croissants, signature desserts such as macaroons, cakes, tarts, and more!</p>

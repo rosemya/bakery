@@ -35,7 +35,7 @@ const WhyPage = () => {
                     </div>
                 </div>
 
-                <Image src={"/breakfast.jpg"} alt={"Breakfast"} width={400} height={500} />
+                <Image src={"/breakfast.jpg"} alt={"Breakfast"} width={400} height={500} priority />
         </div>
     );
 }
